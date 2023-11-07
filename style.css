@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #map {
+    height: 400px;
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999;
+  }
+  
+  .saved-locations {
+    margin-top: 20px;
+  }
+  
+  .saved-locations h2 {
+    margin-bottom: 10px;
+  }
+  
+  .location-card {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .location-card h3 {
+    margin: 0;
+  }
+  
+  .location-card p {
+    margin: 5px 0;
+  }
+  
+  .location-card .directions-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .marker-car {
+    background-image: url('car-marker.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #f00;
+  }
+  
